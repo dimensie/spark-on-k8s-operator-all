@@ -26,7 +26,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
   name: spark-operator-role
-......
+rules:
 - apiGroups:
   - sparkoperator.k8s.io
 resources:
